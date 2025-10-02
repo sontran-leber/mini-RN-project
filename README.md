@@ -1,13 +1,32 @@
-> Why do I have a folder named ".expo" in my project?
+# mini React Native project
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+## Introduce
 
-> What do the files contain?
+Mini React Native project initialized by Expo
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
 
-> Should I commit the ".expo" folder?
+## Run project
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+1.Install NPM packages
+
+```bash
+npm install
+# or
+yarn
+```
+
+2.Run locally
+
+```bash
+npm run start
+# or
+yarn start
+```
+
+## IDE
+
+Tools for development application
+
+| Name               | Website                                  |
+| ------------------ | ---------------------------------------- |
+| Visual Studio Code | [https://code.visualstudio.com/download] |
